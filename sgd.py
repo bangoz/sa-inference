@@ -1,7 +1,6 @@
 ### Implementation of SGD on linear/logistic regression tasks
 
 import argparse
-from ast import parse
 import os, sys
 import time
 import numpy as np
