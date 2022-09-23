@@ -1,7 +1,6 @@
 ### Implementation of synchronous Q-learning on Grid World
 
 import argparse
-from email.policy import default
 import os
 import numpy as np
 
