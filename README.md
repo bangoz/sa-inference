@@ -13,4 +13,10 @@ This repository contains the code for the paper "A Statistical Online Inference 
 * qlearning_fig: Containing figures generated according to Q-learning experiment results
 
 ## How to Run
-xxx
+* SGD: 
+  - Run `python sgd.py --n_dim 5 --lr 0.01 --n_rep 1000 --n_iter 40000 --method rs --task lin` in terminal.
+  - Run `python sgd.py -h` for descriptions of each optional parameter.
+* Q-learning: 
+  - Run `python qlearning.py --lr 0.1 --std 2.0 --nrep 200 --niter 5000 --method all` in terminal.
+  - Run `python qlearning.py -h` for descriptions of each optional parameter.
+  - Run `python plot_qlearning.py --lrs 0.1 0.2 0.3 --stds 2.0 4.0 --nrep 200 --niter 5000 --method all` for plotting the experiment results. In this example, you should ensure that experiments with `lr=0.1/0.2/0.3` and `std=2.0/4.0` are all conducted in the first step.
